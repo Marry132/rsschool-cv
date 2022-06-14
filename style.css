@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
+    
 }
 
 * {
@@ -9,6 +10,7 @@ body {
 body {
     margin: 0;
     padding: 0;
+   
 }
 body {
     display: flex;
@@ -17,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -25,6 +27,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0;
 }
 
 html { 
@@ -38,7 +41,7 @@ html {
 
 .nav-link {
     padding: 0px 20px;
-   font-size: 20px;
+    font-size: 20px;
     color: #696969;
     background-color: #FAEBD7;
 }
@@ -55,14 +58,12 @@ html {
     padding: 0px 20px;
     line-height: 30px;
     font-size: 32px;
-
     color: #696969;
     background-color: #FAEBD7;
 }
 
 .text { 
     padding: 0px 80px;
-    line-height: 10px;
     font-size: 20px;
 }
 .contacts-list {
@@ -109,5 +110,6 @@ a:hover {
 .footer {
     color: #696969;
     background-color: #FAEBD7;
-   
 }
+
+
