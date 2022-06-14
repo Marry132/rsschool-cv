@@ -33,11 +33,14 @@ html {
 
 .nav-list {
     list-style: none;
+  
 }
 
 .nav-link {
     padding: 0px 20px;
-    line-height: 30px;
+   font-size: 20px;
+    color: #696969;
+    background-color: #FAEBD7;
 }
 
 .nav-link {
@@ -52,9 +55,12 @@ html {
     padding: 0px 20px;
     line-height: 30px;
     font-size: 32px;
+
+    color: #696969;
+    background-color: #FAEBD7;
 }
 
-p{ 
+.text { 
     padding: 0px 80px;
     line-height: 10px;
     font-size: 20px;
@@ -66,9 +72,42 @@ p{
     font-size: 20px;
 }
 
-.skills-list, .courses-list, .languages-list {
+.skills-list,
+.courses-list, 
+.languages-list {
     padding: 0px 100px;
     line-height: 30px;
     font-size: 20px;
-    list-style: square ; 
+    list-style: square; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #BC8F8F;
+}
+
+.pre {
+    font-size: 15px;
+}
+
+.logo {
+    text-align: left;
+    padding: 0px 50px;
+    margin: 50px;
+}
+
+.github {
+    font-size: 20px;
+    padding: 0px 50px;
+    margin: 50px;
+}
+
+.footer {
+    color: #696969;
+    background-color: #FAEBD7;
+   
 }
