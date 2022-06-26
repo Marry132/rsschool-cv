@@ -1,0 +1,359 @@
+body { 
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container-header {
+  background-image: url(../images/mountaines.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 765px;
+}
+
+.header {
+  height: 90px;
+  background-color: rgba(242, 120, 92, 0.7);
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 196px 34px 158px;
+  color: white;
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 0;
+}
+.site-name{
+  width: 216px;
+  height: 31px;
+  margin: 25px 0px 34px 120px;
+}
+.site-name-text {
+    color: white;
+    position: absolute;
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.site-name-image{
+  margin-right: 6px;
+}
+.navigation-list-item{
+  padding-right: 21px;
+}
+.navigation-list-item:last-of-type{
+  padding-right: 0;
+}
+
+.knopka-avtorization-login{
+  background: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 0;
+  margin: 25px 120px 24px 0;
+}
+
+.avtorization-login-name{
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.preview {
+  margin-right: 428px;
+  margin-left: 120px;
+}
+
+
+.preview-title-text {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+color: white;
+margin-top: 32px; 
+margin-bottom: 0;
+}
+
+.preview-description-text {
+  font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: white;
+}
+.preview-description {
+  margin: 32px 0;
+}
+ 
+.preview-search {
+  background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+height: 95px;
+width: 892px;
+}
+
+.preview-search-input {
+  margin: 32px 45px 41px 41px;
+  border: 0;
+  padding: 0;
+  font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #F2785C;
+}
+.preview-search-input:placeholder {
+background: rgba(255, 255, 255, 0.7);
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+}
+
+.knopka-start-planing {
+  background: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 0;
+  width: 228px;
+height: 59px;
+}
+.start-planing {
+  font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+
+.steps-title-text {
+  font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+display: flex;
+justify-content: space-between;
+margin: 97px 400px 0 414px;
+}
+
+.steps-all {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 132px 0 131px;
+}
+.bike {
+  display: grid;
+}
+.bike-img {
+background: #F2785C;
+background-size: 100px 100px;
+border-radius: 16px;
+padding: 28px 25px 27px 25px;
+margin: 0 74px 30px 73px;
+}
+.bike-text {
+  font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+
+}
+
+.date {
+  display: grid;
+}
+
+.date-img {
+  background: #F2785C;
+background-size: 100px 100px;
+border-radius: 16px;
+padding: 24px 24px 24px 24px;
+margin: 0 61px 30px 61px;
+}
+
+.date-text {
+  font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+
+.plane {
+  display: grid;
+}
+
+.plane-img {
+  background: #F2785C;
+  background-size: 100px 100px;
+  border-radius: 16px;
+  padding: 28px 20px 27px 20px;
+  margin: 0 108px 30px 109px;
+}
+
+.plane-text {
+  font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+
+.destination-title-text {
+  width: 501px;
+height: 53px;
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin: 97px 469px 46px 470px;
+}
+.slider-images {
+  display: flex;
+  justify-content: center;
+}
+.slider-image1 {
+  background-image: url(../images/stones.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 260px;
+height: 800px;
+flex: none;
+order: 0;
+flex-grow: 0;
+border-radius: 16px;
+margin-right: 60px;
+}
+.slider-image2 {
+  background-image: url(../images/arka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+flex: none;
+order: 1;
+flex-grow: 0;
+border-radius: 16px;
+}
+.slider-image3 {
+  background-image: url(../images/bridge.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 260px;
+height: 800px;
+order: 2;
+flex-grow: 0;
+border-radius: 16px;
+margin-left: 60px;
+}
+
+.slider-text, .slider-text {
+  font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+display: flex;
+justify-content:flex-start;
+margin: 718px 677px 40px 15px;
+}
+
+.slider-points {
+  display: flex;
+  justify-content: center;
+  margin: 24px 679px 0 681px;
+}
+.point1, .point2 {
+  margin-right: 10px;
+}
+
+.knopka-slider {
+  display: flex;
+  justify-content: center;
+}
+.knopka-slider-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  width: 228px;
+  height: 59px;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  margin: 40px 605px 80px 607px;
+}
+
+.knopka-slider-text {
+  width: 116px;
+height: 32px;
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.stories-title {
+  width: 335px;
+height: 53px;
+font-family: 'Red Hat Text', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+display: flex;
+justify-content: center;
+margin: 0 553px 55px 552px;
+}
+
+.container-stories-footer {
+  background-image: url(../images/Rectangle\ 27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 1331px;
+}
+
+
+
+
+
+
+
+
