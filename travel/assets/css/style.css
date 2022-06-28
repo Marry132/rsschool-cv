@@ -354,7 +354,7 @@ color: #FFFFFF;
 }
 
 .stories-footer {
-  background-image: url(/travel/assets/images/boat.jpg);
+  background-image: url(../images/boat.jpg);
   background-size: cover;
 }
 
