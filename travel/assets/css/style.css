@@ -40,6 +40,7 @@ html {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 a:hover {
   text-decoration: underline;
@@ -354,6 +355,7 @@ color: #FFFFFF;
 
 .stories-footer {
   background-image: url(/travel/assets/images/boat.jpg);
+  background-size: cover;
 }
 
 .stories-content {
@@ -443,38 +445,62 @@ font-size: 16px;
 line-height: 21px;
 color: #FFFFFF;
 }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github {
+  color: white;
+}
 
 .footer-content {
   height: 64px;
 }
 
-.stories1-title, .stories2-title, .stories3-title, .stories4-title {
- 
+.story-text {
   margin-left: 40px;
 }
 
-.stories1-text-content, .stories2-text-content, .stories3-text-content, .stories4-text-content {
-  margin-left: 40px;
+.story-text h3 {
+  margin: 0;
 }
 
-.stories1-image, .stories2-image, .stories3-image, .stories4-image {
-  margin-left: 120px;
-  
-}
-.stories1, .stories2, .stories3, .stories4 {
+.story {
   display: flex;
-  width: 1200px;
-height: 250px;
-}
-
-.stories1 {
-  margin-top: 40px;
-}
-.stories2, .stories3 {
+  height: 250px;
   margin-bottom: 30px;
 }
-.stories4 {
-  margin-bottom: 40px;
+
+.story:nth-last-of-type {
+  margin-bottom: 0;
 }
 
 
+.stories-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 120px;
+}
+
+.footer-content-text p {
+  margin: 0;
+}
+
+.logo {
+  height: 64px;
+}
+
+.rs-school {
+  width: 60px;
+  height: 64px;
+}
+
+.footer-content-text {
+  margin-right: 150px;
+}
+
+.footer-content-icon {
+  margin-right: 120px;
+}
